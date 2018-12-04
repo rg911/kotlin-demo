@@ -1,0 +1,184 @@
+@font-face {
+  font-family: 'Sky';
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+  src: url('./fonts/sky-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Sky';
+  font-weight: 500;
+  font-style: normal;
+  font-display: fallback;
+  src: url('./fonts/sky-medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Sky';
+  font-weight: normal;
+  font-style: italic;
+  font-display: fallback;
+  src: url('./fonts/sky-italic.woff2') format('woff2');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Sky', sans-serif;
+}
+/* Home */
+
+h2.banner {
+  padding: 0 14px;
+  display: block;
+  line-height: 42px;
+  text-decoration: none;
+  color: #0d2d6c;
+  text-shadow: 0 1px 1px rgba(255,255,255,.1), 0 -1px 1px rgba(0,0,0,.25);
+  border-radius: 4px;
+  margin-bottom: 7px;
+  font-family: 'Sky', sans-serif
+}
+
+.events_table {
+  border-color: #cad6e7;
+  color: #727693;
+  border-spacing: 0;
+  padding: 3px;
+  width: 100%;
+}
+  th {
+      border-width: 0 1px;
+      background-color: #ebeff5;
+      font-family: 'Sky', sans-serif;
+      padding: 8px 16px;
+      line-height: 1.4;
+      text-decoration: none;
+      color: #0d2d6c;
+  }
+  td, th {
+      text-align: left;
+      border-bottom: 1px solid #ebeff5;
+      padding: 8px 16px;
+      margin: 0;
+      font-size: 0.912rem;
+      font-family: 'Sky', sans-serif;
+  }
+
+  /* Event */
+  .content-head h1 {
+    color: #0d2d6c;
+    font-size: 28px;
+    line-height: 1.25;
+    text-shadow: 0 1px 1px rgba(255,255,255,.1), 0 -1px 1px rgba(0,0,0,.25);
+    margin-bottom: 7px;
+    font-family: 'Sky', sans-serif
+}
+
+h2.sub-head {
+    color: #d92231;
+    font-size: 18px;
+    font-family: 'Sky', sans-serif
+}
+
+h2 {
+    line-height: 1.16667;
+}
+
+h1, h2 {
+    font-family: 'Sky', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    text-align: left;
+    margin-bottom: 14px;
+}
+
+/* EventList*/
+.bet_number {
+  padding-left: 4px;
+}
+
+/* Market */
+
+.market_section {
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.section-head {
+  padding: 0 7px;
+  margin: 0;
+  margin-bottom: 5px;
+  line-height: 2.153;
+  border-bottom-width: 0;
+  background-color: #cbd7e9;
+  color: #07073d;
+  font-size: 13px;
+  font-weight: 700;
+}
+.section-head:before {
+  content: "";
+  display: table;
+}
+.section-head:after {
+  clear: both;
+}
+
+/* Outcome */
+.oc {
+  line-height: inherit;
+  display: inline-block;
+  padding: 6px 7px 5px;
+  margin: 0 7px;
+  text-align: left;
+  width: 50%;
+}
+.odds {
+  color: #d92231;
+  float: right;
+  margin-right: 10px;
+}
+
+/* App */
+
+.app { 
+  text-align: center; 
+  color: #505050;
+} 
+ 
+.app-header { 
+  background-color: #153F8E; 
+  height: 64px; 
+  color: white;
+}
+  .account-bar__right {
+    float: right;
+    margin-right: 10px
+  }
+    .account-bar__right a {
+      line-height: 64px;
+      vertical-align: middle;
+      color: white;
+      text-decoration: none;
+      margin: 10px;
+    }
+  .app-header__logo {
+    float: left;
+    padding-left: 10px;
+    height: 32px; 
+    margin: 15px 0 
+  } 
+ 
+.page-wrapper { 
+    margin: 0 auto;
+    padding: 14px 14px 0;
+    max-width: 998px;
+} 
+  .page {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+    padding: 14px 14px;
+    border-radius: 4px 4px 0 0;
+    z-index: 1;
+  }
